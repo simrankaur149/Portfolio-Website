@@ -8,9 +8,11 @@ import Connect from './Connect'
 import Testmonials from '../Components/Testmonials'
 import Footer from '../Components/Footer'
 
+
 const Home = () => {
   return (
     <>
+
       <Main/>
       <About/>
       <Skills/>
@@ -18,6 +20,7 @@ const Home = () => {
       <Testmonials/>
       <Connect/>
       <Footer/>
+      
     </>
   )
 }

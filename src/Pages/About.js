@@ -8,6 +8,13 @@ import { BsMouse } from "react-icons/bs";
 import profile from '../Img/profile.png'
 
 const About = () => {
+  const cvDownload = ()=>{
+    const path = '/portfolio-website/Simran Resume.pdf';
+    const a = document.createElement('a');
+    a.href = path;
+    a.download = 'Simran Resume.pdf';
+    a.click();
+}
   return (
     <>
       <div>
@@ -38,7 +45,9 @@ const About = () => {
                     </div>
                 </div>
                 <p className=' text-[1.2rem] mt-6 text-gray-800'>Passionate full-stack web developer eager to build high-quality, dynamic web applications. Dedicated to learning and delivering innovative solutions that meet your needs and exceed expectations.</p>
-                <button className='btn bg-black text-white my-10 flex items-center justify-center px-7 py-4 rounded-3xl'>Download CV<FaFileWaveform className='text-2xl ml-2'/>
+                <button className='btn bg-black text-white my-10 flex items-center justify-center px-7 py-4 rounded-3xl'
+                onClick={cvDownload}
+                >Download CV<FaFileWaveform className='text-2xl ml-2'/>
                 </button>
             </div>
         </div>

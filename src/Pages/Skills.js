@@ -77,6 +77,11 @@ const Skills = () => {
                         <h6 className='font-semibold'>Firebase</h6>
                     </div>
                     <p className='text-[12px]'>Intermediate</p>
+                    <div className='flex items-center pt-2'>
+                        <HiOutlineBadgeCheck/>
+                        <h6 className='font-semibold'>PHP</h6>
+                    </div>
+                    <p className='text-[12px]'>Intermediate</p>
                     
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Connect = () => {
   return (
     <>
       <div>
-        <div className='title text-center my-10 mt-44'>
+        <div className='title text-center my-10 mt-24'>
           <h1 className='text-5xl font-bold'>Get in touch</h1>
           <p>Contact Me</p>
           <div className='connect flex w-[70%] m-auto '>

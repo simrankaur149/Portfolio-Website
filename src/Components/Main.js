@@ -8,6 +8,13 @@ import profile from '../Img/profile.png'
 
 
 const Main = () => {
+  const cvDownload = ()=>{
+    const path = '/portfolio-website/Simran Resume.pdf';
+    const a = document.createElement('a');
+    a.href = path;
+    a.download = 'Simran Resume.pdf';
+    a.click();
+}
   return (
     <>
       <div className='w-full h-full flex justify-center items-center'>
@@ -27,7 +34,9 @@ const Main = () => {
                     <h4 className='desc '>Web Developer</h4>
                 </div>
                 <p className=' text-1xl  text-gray-800'>Full-stack web developer passionate about creating dynamic and high-quality web applications, dedicated to your success...</p>
-                <button className='bg-black text-white my-10 flex items-center justify-center px-7 py-4 rounded-3xl'>Download CV<CiLocationArrow1 className='text-2xl ml-2'/>
+                <button
+                onClick={cvDownload}
+                 className='bg-black text-white my-10 flex items-center justify-center px-7 py-4 rounded-3xl'>Download CV<CiLocationArrow1 className='text-2xl ml-2'/>
                 </button>
             </div>
         </div>

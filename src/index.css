@@ -158,12 +158,14 @@ textarea{
   .project{
     width: 100%;
   }
-  .project-items{
-    flex-direction: column;
+  .pro{
+    
+    width: 70%;
     margin: auto;
   }
+  
   .wContent{
-    width: 55%;
+    width: 100%;
   }
   .connect{
     width: 90%;
@@ -243,15 +245,18 @@ textarea{
   }
   .project{
     width: 100%;
+  }  
+  .pro{
     
-  }
-  .project-items{
-    flex-direction: column;
+    width: 70%;
     margin: auto;
   }
+  
   .wContent{
-    width: 55%;
+    width: 100%;
   }
+  
+  
   .slider-container{
     width: 90%;
     
